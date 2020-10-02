@@ -36,7 +36,7 @@ namespace Serialize_People
             // subtract a year from their age
             if (dateOfBirth.AddYears(DateTime.Now.Year - dateOfBirth.Year) > DateTime.Now)
             {
-                age=1;
+                age--;
             }
         }
 
