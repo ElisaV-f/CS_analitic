@@ -41,5 +41,10 @@ namespace pr9_02
       string s1 = textBox2.Text;
       listBox2.Items.Remove(s1);
     }
-  }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
