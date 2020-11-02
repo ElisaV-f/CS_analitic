@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Work_7_1</RootNamespace>
+    <RootNamespace>prakt6_var1</RootNamespace>
   </PropertyGroup>
 
 </Project>
