@@ -9,11 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="ButtonForMe" Content="=" Margin="503,103,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="230,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="382,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="597,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="335,106,0,0" Text="+" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-
+        <Button x:Name="myBtn" Content="=" Margin="577,86,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="Text1" HorizontalAlignment="Left" Margin="346,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="Text2" HorizontalAlignment="Left" Margin="478,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="Text3" HorizontalAlignment="Left" Margin="640,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="436,86,0,0" Text="+" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
     </Grid>
 </Page>
